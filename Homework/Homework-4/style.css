@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-color: black;
+ }
+main{
+    width: 800px;
+    height: 550px;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 0 5px 10px 10px gold;
+}
+ 
+form{
+    width: 800px;
+    height: 550px;
+    background-color: rgb(11, 167, 214);
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    
+}
+
+.email{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.subject{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 75px;
+    border: 1px solid black;
+}
+
+textarea{
+    position: absolute;
+    top: 300px; 
+    left: 75px;
+    border: 1px solid black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(216, 68, 107);
+    
+}
+
+button{
+    position: absolute;
+    top: 500px;
+    right: 50px;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 100px;
+    background-color: rgb(230, 11, 11);
+    color:rgb(206, 192, 192)
+}
+
+button:hover{
+    background-color: rgb(0, 183, 255);
+}
+
+.email,.name,.subject, textarea{
+    background-color: rgb(24, 221, 24);
+    border-radius: 10PX;
+}
+
+::placeholder{
+    color: rgb(230, 7, 7);
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+}
+
+@media (min-width:600px) and (max-width:800px){
+
+    main{
+        width: 500px;
+        height: 250px;
+        border: 1px solid black;
+        margin: auto;
+    }
+}
+
+@media (min-width:600px) and (max-width:800px){
+    form{
+        width: 500px;
+        height: 250px;
+        position: relative;
+    }
+}
+
+@media (min-width:600px) and (max-width:800px){
+    .email{
+     position: absolute;
+    top: 70px;
+    left: 255px;
+    width: 95px;
+    height: 20px;
+    font-size: 15px;
+ }
+}
+
+@media (min-width:600px) and (max-width:800px){
+    .name{
+        position: absolute;
+        top: 70px;
+        left: 50px;
+        width: 95px;
+        height: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:600px) and (max-width:800px){
+    .subject{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        width: 300px;
+        height: 25px;
+        font-size: 15px;
+        
+
+    }
+}
+
+@media (min-width:600px) and (max-width:800px){
+    textarea{
+        position: absolute;
+        top:140px;
+        left:50px;
+        width: 300px;
+        height: 50px;
+        
+    }
+}
+
+@media (min-width:600px) and (max-width:800px){
+    button{
+        position: absolute;
+        top:220px;
+        width: 80px;
+        left: 370px;
+        font-size: 10px;
+    }
+}
+
+
+
+  

@@ -1,0 +1,28 @@
+.class1{
+    color: white;
+    background-color: black;
+    font-size: 27px;
+    text-decoration-line: underline;
+    font-family:italic;
+    
+   
+    
+}
+
+#class2{
+    border: 3px solid blue;
+    font-size: 35px;
+    font-weight: bold;
+   
+}
+
+.style3{
+    font-size: 25px;
+    border-right:dashed red 3px  ;
+    
+    
+    
+}
+.span{
+    color: red;
+}

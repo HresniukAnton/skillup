@@ -1,0 +1,19 @@
+p{  
+    border: 1px solid black;
+
+    
+
+    color: #0099ff;
+    font-size: 25px;
+    font-style: italic;
+}
+.second-paragraph{
+    color: crimson;
+    border-right: 1px;
+}
+
+#third-paragraph{
+     color:black;
+     border-left: 1px;
+
+}

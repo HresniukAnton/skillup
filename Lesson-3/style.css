@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: red;
+    font-size: 25px;
+    font-family: 'La Belle Aurore', cursive;
+    font-weight: 600;
+}
+
+.blue{
+    color: blue;
+}
+
+#yellow{
+    color:yellow;
+    font-family: 'Zen Dots', cursive;
+    font-weight: 800;
+}
+
+#pink{
+    color: p;
+    
+}
+/* 
+section{
+    border: 1px solid black;
+    font-size: 20px;
+}
+div:nth-child(3){
+    color: blue;
+}
+
+div:nth-child(2){
+    color: red;
+}
+
+div:first-child{
+    color: yellow;
+}
+
+div::first-line{
+    font-size: 45px;
+}
+/* content має бути заповнений  */
+/* div::before{
+    content: "hello";
+} */
+
+/* div::after{
+    content: "hello";
+}
+
+div:hover{
+    color: green;
+} */
+ 
+div{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+   
+    padding-left: 15px;
+    padding-top: 15px;
+    overflow: scroll;
+}
+
+span{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    
+}
+

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    background-color: #333;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    
+}
+
+
+li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.active{
+    background-color: green;
+    
+}
+
+a:hover{
+    color: yellow;
+}
+
+main{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px 10px red;
+    margin: auto;
+  
+}
+
+form{
+    width: 800px;
+    height: 500px;
+    background-color:green;
+    margin: auto;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.email{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.subject{
+    width: 500px;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+
+button{
+    width: 300px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    background-color: red;
+    border-radius: 20px;
+
+}
+
+textarea{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    
+
+}
+
+section{
+    width: 700px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center; 
+    /* flex-wrap: wrap; */
+   
+
+
+}
+
+div{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.section2{
+    width: 900px;
+    height: 800px;
+    border: 1px solid rgb(97, 252, 7);
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+     justify-content: space-evenly;
+    align-items:center;
+    
+    
+
+
+}
+
+.div2{
+ background-color: green;   
+}
+
+.div3{
+   background-color : red;
+}
+
+.div4{
+   background-color : black;
+}
+
+.div5{
+  background-color  :violet
+}
+
+.div6{
+    background-color: darkgoldenrod;
+}
+
+.div7{
+    background-color: red;
+}

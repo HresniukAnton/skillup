@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+   box-sizing: border-box;
+}
+
+ul{
+    background-color: rgb(246, 250, 4);
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: rgba(19, 36, 196, 0.829);
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 18px; 
+    font-family: 'Anton', sans-serif;
+}
+
+.About{
+    background-color: green;
+}
+
+a:hover{
+    color: red;
+}
